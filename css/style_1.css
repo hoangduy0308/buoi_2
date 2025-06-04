@@ -2,11 +2,11 @@
 
 /* Nhúng font từ thư mục Fonts */
 @font-face {
-  font-family: 'Raleway-Regular';
+  font-family: 'Raleway-Regular', sans-serif;
   src: url('../Fonts/Raleway-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Raleway-Bold';
+  font-family: 'Raleway-Bold', sans-serif;
   src: url('../Fonts/Raleway-Bold.ttf') format('truetype');
 }
 
@@ -21,18 +21,14 @@ body {
 /* Navbar */
 .navbar-light .navbar-nav .nav-link {
   color: #272727;
-  font-family: 'Raleway-Regular';
+  font-family: 'Raleway-Regular', sans-serif;
   letter-spacing: 1px;
-}
-.navbar-light .navbar-nav .nav-link {
-  color: #272727;
-  font-family: 'Raleway-Regular';
   transition: .3s;
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: #ff3c41;
   background: none;
-  font-family: 'Raleway-Bold';
+  font-family: 'Raleway-Bold', sans-serif;
 }
 /* Slider */
 .carousel .carousel-inner img {
@@ -44,7 +40,7 @@ body {
 .title {
   font-size: 40px;
   text-align: center;
-  font-family: 'Raleway-Bold';
+  font-family: 'Raleway-Bold', sans-serif;
   color: #1b1b1b;
   letter-spacing: 2px;
   margin-bottom: 40px;
@@ -58,7 +54,7 @@ body {
 /* About content */
 .about-content h3 {
   font-size: 26px;
-  font-family: 'Raleway-Bold';
+  font-family: 'Raleway-Bold', sans-serif;
   color: #3c3c3c;
   font-weight: 100;
 }
@@ -69,7 +65,7 @@ body {
   background: none;
   border: 3px solid #76daff;
   font-size: 12px;
-  font-family: 'Raleway-Bold';
+  font-family: 'Raleway-Bold', sans-serif;
   color: #3c3c3c;
   padding: 8px 20px;
   text-transform: uppercase;
@@ -92,7 +88,7 @@ body {
 }
 .about-service h4 {
   font-size: 20px;
-  font-family: 'Raleway-Bold';
+  font-family: 'Raleway-Bold', sans-serif;
   font-weight: 100;
   color: #222222;
   letter-spacing: 2px;
@@ -100,7 +96,7 @@ body {
 }
 .about-service p {
   font-size: 16px;
-  font-family: 'Raleway-Regular';
+  font-family: 'Raleway-Regular', sans-serif;
   color: #777777;
 }
 
